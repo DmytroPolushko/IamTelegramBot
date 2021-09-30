@@ -20,4 +20,4 @@ bot.on('message', msg => {
 	if (msg.text == 'hello') {
 		bot.sendMessage(id, `${arrBotMsg[randomWord(0,2)]} ${userName}`)
 	}
-}) 
+}) ;
